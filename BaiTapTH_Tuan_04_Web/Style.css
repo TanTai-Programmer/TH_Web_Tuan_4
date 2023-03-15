@@ -1,0 +1,55 @@
+.Main{
+    display: grid;
+    grid-template-columns: 100px 910px 1480px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
+}
+.Menu_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 450px;
+}
+#icon{
+    padding:15px;
+}
+#icon:hover{
+    padding: 15px;
+    background-color: #e34d73;
+    border-radius: 5px;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    height: 450px;
+
+}
+#datetime{
+    background-color: aqua;
+    width: 835px;
+    height: 79px;
+}
+#video_main{
+    width: 830px;
+    height: 457px;
+    background-color:antiquewhite;
+}
+#video_item{
+    height: 100px;
+    background-color: aquamarine;
+}
+#meeting{
+    height:100px;
+    background-color: brown;
+}
+.Messenger{
+    background-color: antiquewhite;
+}
