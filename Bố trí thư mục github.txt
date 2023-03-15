@@ -1,0 +1,6 @@
+Về sửa lại cách bố trí thư mục
+Gồm : 1 thư mục Base
+1 thư mục Image chứa hình ảnh làm được
+1 thư mục CSS
+1 file html code chính bên ngoài
+1 thư mục Image_demo chứa ảnh mỗi lần commit
