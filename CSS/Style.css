@@ -1,6 +1,9 @@
+*{
+    margin:0px;
+}
 .Main{
     display: grid;
-    grid-template-columns: 100px 910px 1480px;
+    grid-template-columns: 89px 910px 1480px;
 }
 
 .menu{
@@ -8,29 +11,45 @@
     flex-direction: column;
     justify-content: space-around;
     height: 900px;
+    border-right: 1px solid gray;
 }
 .Menu_icon{
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
-    height: 450px;
+    height: 500px;
+    padding:30px 10px 30px 20px
 }
-#icon{
-    padding:15px;
+#icon_menu_logo{
+    margin-bottom:20px;
+    cursor:pointer;
 }
-#icon:hover{
-    padding: 15px;
+#icon_menu_items{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    width: 56px;
+    height: 56px;
+    border-radius:5px;
+}
+#icon_menu_items:hover{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    width: 56px;
+    height: 56px;
+    border-radius:5px;
     background-color: #e34d73;
-    border-radius: 5px;
 }
 .setting{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:flex-end;
-    height: 450px;
-
+    height: 400px;
 }
 .Meeting_container{
     display: flex;
