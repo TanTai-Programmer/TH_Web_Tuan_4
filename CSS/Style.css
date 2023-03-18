@@ -1,0 +1,110 @@
+.Main{
+    display: grid;
+    grid-template-columns: 100px 910px 1480px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 900px;
+}
+.Menu_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    height: 450px;
+}
+#icon{
+    padding:15px;
+}
+#icon:hover{
+    padding: 15px;
+    background-color: #e34d73;
+    border-radius: 5px;
+}
+.setting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    height: 450px;
+
+}
+.Meeting_container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#internal_buttom{
+    width: 80px;
+    height: 30px;
+    padding-left: 20px;
+    background-color: #e34d73;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+    background-image: url(user.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 5px;
+}
+#Meeting_header{
+    font-size: 30px;
+    font-weight: bold;
+}
+#User_datetime{
+    display: flex;
+    
+}
+#datetime{
+    background-color: aqua;
+    width: 835px;
+    height: 79px;
+}
+#video_main{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color:red;
+    display: flex;
+    justify-content: center;
+}
+#video_main_img{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 830px;
+    height: 460px;
+}
+#video_item{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+#video_item_img{
+    height: 160px;
+    width: 260px;
+    border-radius: 15px;
+}
+
+#meeting{
+    height:100px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon_meeting {
+    padding:10px;
+}
+#End_meeting{
+    width: 130px;
+    height: 45px;
+    background-color: #f22128;
+    border-radius: 10px;
+    border: none;
+    color:white;
+}
+.Messenger{
+    background-color: antiquewhite;
+}
