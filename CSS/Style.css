@@ -5,13 +5,11 @@
     display: grid;
     grid-template-columns: 89px 910px 1480px;
 }
-
 .menu{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 900px;
-    border-right: 1px solid gray;
 }
 .Menu_icon{
     display: flex;
@@ -55,7 +53,9 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    margin: 40px;
+    padding: 40px;
+    border-left: 2px solid rgba(135, 135, 135,0.2) ;
+    border-right: 2px solid rgba(135, 135, 135,0.2) ;
 }
 #internal_buttom{
     width: 80px;
@@ -182,5 +182,69 @@
     color:white;
 }
 .Messenger{
-    background-color: antiquewhite;
+    width: 500px;
+    display: grid;
+    grid-template-rows: 350px auto;
+}
+.Participants_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 30px;
+    border-bottom: 2px solid rgba(135,135,135,0.3);
+}
+#Participants_header{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 20px;
+}
+#Paritcipants_Notification{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+#Notification{
+    font-size:18px;
+    font-weight: normal;
+    width:25px ;
+    height: 25px;
+    background-color:#fdf2f4 ;
+    border-radius: 50%;
+    text-align: center;
+    color:#e34d73;
+    margin: 5px;
+}
+#Add{
+    width:70px;
+    height:35px;
+    border-radius: 3px;
+    border:2px solid #e34d73;
+    color:#e34d73;
+    font-size: 14px;
+    background:none;
+}
+#Participants_list{
+    font-size: 17px;
+}
+
+#Participants_member{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+#Avartar_name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:300px;
+    height: 40px;
+}
+#Name{
+    padding:15px;
+}
+#Chat_header{
+    
 }
