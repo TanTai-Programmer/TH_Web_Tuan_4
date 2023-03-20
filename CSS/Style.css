@@ -61,6 +61,7 @@
     width: 80px;
     height: 30px;
     padding-left: 20px;
+    margin-right:5px;
     background-color: #e34d73;
     border-radius: 30px;
     border: none;
@@ -70,20 +71,50 @@
     background-size: 20px;
     background-position: 5px;
 }
-#Meeting_header{
-    font-size: 30px;
-    font-weight: bold;
+#Meeting_content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     width: 830px;
     height:60px;
 }
+#Meeting_header{
+    font-size: 30px;
+    font-weight: bold;
+}
+#Time_meeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:90px;
+    height: 37px;
+    border:2px solid #f22128;
+    color:#f22128;
+    border-radius:20px;
+}
+#cricle{
+    width:10px;
+    height: 10px;
+    background-color: #f22128;
+    border-radius:50%;
+    margin: 5px;
+}
 #User_datetime{
     display: flex;
+    justify-content:left;
+    align-items:center;
     width: 830px;
     height: 75px;
 }
 #datetime{
-    width: 835px;
-    height: 79px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding:0px 5px;
+}
+#time{
+    padding:0px 5px;
+    border-left: 2px solid rgba(135,135,135,0.3);
 }
 #Name_ID{
     display: flex;
@@ -100,6 +131,13 @@
 }
 #Name_ID{
     color:white;
+}
+#cricle_green{
+    background-color:#1dd75b;
+    margin:5px;
+    width:10px;
+    height: 10px;
+    border-radius: 50%;;
 }
 #Mic{
     position: absolute;
@@ -123,6 +161,7 @@
     align-items: center;
     width: 105px;
     height: 30px;
+    color:white;
     background-color: #757678;
     border-radius: 3px;
     opacity: 80%;;
