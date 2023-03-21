@@ -10,140 +10,139 @@
 </head>
 <body>
     <div class="Main">
-    <div class="menu">
-        <div class="Menu_icon">
-            <div id="icon_menu_logo"><img  src="Bases/logo.png" alt="Logo"></div>
-            <div id="icon_menu_items"><img  src="Bases/home.png" alt=""></div>
-            <div id="icon_menu_items"><img src="Bases/chatting.png" alt=""></div>
-            <div id="icon_menu_items"><img  src="Bases/calender.png" alt=""></div>
-            <div id="icon_menu_items_meet"><img class="icon_meet"  src="Bases/camcorder-camera-on.svg" style="width:30px" alt=""></div>
-            <div id="icon_menu_items"><img src="Bases/user.png" alt=""></div>
+    <div class="Menu">
+        <div class="Menu__function">
+            <div class="Menu__function--logo"><img  src="Bases/logo.png" alt="Logo"></div>
+            <div class="Menu__function--items"><img src="Bases/home.png" alt=""></div>
+            <div class="Menu__function--items"><img src="Bases/chatting.png" alt="Chat"></div>
+            <div class="Menu__function--items"><img src="Bases/calender.png" alt="Calender"></div>
+            <div class="Menu__function--items Menu__function--items--meet"><img class="icon_meet"  src="Bases/camcorder-camera-on.svg" style="width:30px" alt=""></div>
+            <div class="Menu__function--items"><img src="Bases/user.png" alt="User"></div>
         </div>
-        <div class="setting">
-            <div><img id="icon_menu_items" src="Bases/avatar.png" alt=""></div>
-            <div><img id="icon_menu_items"src="Bases/setting.png" alt=""></div>
-        </div>
+        <div class="Menu__user">
+            <div class="Menu__user--items"><img src="Bases/avatar.png" alt="Avatar"></div>
+            <div class="Menu__user--items"><img src="Bases/setting.png" alt="Setting"></div>
+        </div> 
     </div>
-    <div class="Meeting_container">
-        <div id="Meeting_content">
-            <div id="Meeting_header">
+    <div class="Meeting">
+        <div class="Meeting__content">
+            <div class="Meeting__content--header">
                 <p>Meeting Title</p>
             </div>
-            <div id="Time_meeting">
+            <div class="Meeting__content--time">
                 <div id="cricle"></div>
                 <div>12:00</div>
             </div>
         </div>
-        <div id="User_datetime">
-                <button id="internal_buttom" style="cursor: pointer">Internal</button>
-            <div id="datetime" >
+        <div class="Meeting__User">
+                <button class="Meeting__User--button--internal" style="cursor: pointer">Internal</button>
+            <div class="Meeting__User--day" >
                 <img src="Bases/calender_small.png" alt="">
                 <p style="padding:0px 10px">Sep, 02 2022</p>
             </div>
-            <div id="time">8:00 - 9:00 AM</div>
+            <div class="Meeting__User--time">8:00 - 9:00 AM</div>
         </div>
-        <div id="video_banner">
-            <img id="video_main_img"src="Bases/img_big.png" alt="img chinh">
-            <div id="Name_ID">
+        <div class="Meeting__Videomain">
+            <img class="Meeting__Videomain--video"src="Bases/img_big.png" alt="img chinh">
+            <div class="Meeting__Videomain--Name">
                 <div id="cricle_green"></div>
                 Benjamin Crawford
             </div>
-            <div id="Mic">
+            <div class="Meeting__Videomain--Mic">
                 <img src="Bases/mic_color.png" alt="">
             </div>
         </div>
-        <div id="video_item">
-            <div id="video_item_container_1">            
-                <img id="video_item_img" src="Bases/img2.png" alt="">
-                <div id="Name_ID_item">
+        <div class="Meeting__Videoitems">
+            <div class="Meeting__Videoitems--1">            
+                <img class="Meeting__Videoitems--1 Meeting__Videoitems--video" src="Bases/img2.png" alt="">
+                <div class="Meeting__Videoitems--Name">
                     <div id="cricle_green"></div>
                     Christian Scott
                 </div>
-                <div id="Mic_item">   
+                <div class="Meeting__Videoitems--Mic">   
                     <img style="width: 20px;"src="Bases/mic-on.svg" alt=" Mic on">
                 </div>
-             
             </div>
-            <div id="video_item_container_2">
-                <img id="video_item_img" src="Bases/img1.png" alt="">
-                <div id="Name_ID_item">
+            <div class="Meeting__Videoitems--2">
+                <img class="Meeting__Videoitems--2 Meeting__Videoitems--video" src="Bases/img1.png" alt="">
+                <div class="Meeting__Videoitems--Name">
                     <div id="cricle_green"></div>
                     Deborah Chu</div>
-                <div id="Mic_item">   
+                <div class="Meeting__Videoitems--Mic">   
                     <img style="width: 15px;" src="Bases/mic-off.svg" alt="Mic off">
                 </div>
             </div >
-            <div id="video_item_container_3">
-                <img id="video_item_img" src="Bases/img.png" alt="">
-                <div id="Name_ID_item">
+            <div class="Meeting__Videoitems--3">
+                <img class="Meeting__Videoitems--3 Meeting__Videoitems--video" src="Bases/img.png" alt="">
+                <div class="Meeting__Videoitems--Name">
                     <div id="cricle_green"></div>
                     Jordan Nieves</div>
-                <div id="Mic_item">   
+                <div class="Meeting__Videoitems--Mic">   
                     <img style="width: 20px;"src="Bases/mic-on.svg" alt="Mic on">
                 </div>
             </div>
         </div>
-        <div id="meeting">
-            <img id="icon_meeting" src="Bases/mic_grey_color.png" alt="Micro">
-            <img id="icon_meeting" src="Bases/cam_color.png" alt="Camera">
-            <img id="icon_meeting" src="Bases/speaker_grey_color.png" alt="Speaker">
-            <button id="End_meeting">End meeting</button>
-            <img id="icon_meeting" src="Bases/Button 2179.png" alt="Share screen">
-            <img id="icon_meeting" src="Bases/share.png" alt="Share">
-            <img id="icon_meeting" src="Bases/Bacham.png" alt="Dau 3 cham">
+        <div class="Meeting__function">
+            <img class="Meeting__function--icon" src="Bases/mic_grey_color.png" alt="Micro">
+            <img class="Meeting__function--icon" src="Bases/cam_color.png" alt="Camera">
+            <img class="Meeting__function--icon" src="Bases/speaker_grey_color.png" alt="Speaker">
+            <button class="Meeting__function--End">End meeting</button>
+            <img class="Meeting__function--icon" src="Bases/Button 2179.png" alt="Share screen">
+            <img class="Meeting__function--icon" src="Bases/share.png" alt="Share">
+            <img class="Meeting__function--icon" src="Bases/Bacham.png" alt="More">
         </div>
     </div>
     <div class="Messenger">
-        <div class="Participants_container">
-            <div id="Participants_header">
-                <div id="Paritcipants_Notification">
+        <div class="Messenger__Participants">
+            <div class="Messenger__Participants--header">
+                <div class="Messenger__Participants--header Messenger__Participants--Notifications">
                     <div>Participants</div>
                     <div id="Notification">4</div>
                 </div>
-                <div id="Participants_add">
+                <div class="Messenger__Participants--header Messenger__Participants--Add">
                     <button id="Add">+ Add</button>
                 </div>
             </div>
-            <div id="Participants_list">
-                <div id="Participants_member">
+            <div class="Messenger__Participants--list">
+                <div class="Messenger__Participants--member">
                     <div id="Avartar_name">                    
                         <img src="Bases/avatar 1322.png" alt="Avatar">
                         <div id="Name"> Benjamin Crawford</div>
                     </div>
-                    <div id="Media_member_1">
+                    <div class="Messenger__Participants--Media1">
                         <img id="Media_member_items" src="Bases/mic1.png" alt="Mic on">
                         <img id="Media_member_items" src="Bases/cam_small.png" alt="Cam on">
                         <img id="Media_member_items" src="Bases/More.svg" alt=" More">
                     </div>
                 </div>
-                <div id="Participants_member">
+                <div class="Messenger__Participants--member">
                     <div id="Avartar_name">                    
                         <img src="Bases/avatar 1323.png" alt="">
                         <div id="Name">Christian Scott</div>
                     </div>
-                    <div id="Media_member_2">
+                    <div class="Messenger__Participants--Media2">
                         <img id="Media_member_items" src="Bases/mic1.png" alt="Mic on">
                         <img id="Media_member_items" src="Bases/cam_small.png" alt="Cam on">
                         <img id="Media_member_items" src="Bases/More.svg" alt=" More">
                     </div>
                 </div>
-                <div id="Participants_member">
+                <div class="Messenger__Participants--member">
                     <div id="Avartar_name">
                         <img src="Bases/avatar 1324.png" alt="">
                         <div id="Name">Deborah Chu</div>
                     </div>
-                    <div id="Media_member_3">
+                    <div class="Messenger__Participants--Media3">
                         <img id="Media_member_items" src="Bases/mic2.png" alt="Mic on">
                         <img id="Media_member_items" src="Bases/cam_small.png" alt="Cam on">
                         <img id="Media_member_items" src="Bases/More.svg" alt=" More">
                     </div>
                 </div>
-                <div id="Participants_member">
+                <div class="Messenger__Participants--member">
                     <div id="Avartar_name">
                         <img src="Bases/avatar 1325.png" alt="">
                         <div id="Name">Jordan Nieves</div> 
                     </div>
-                    <div id="Media_member_4">
+                    <div class="Messenger__Participants--Media4">
                         <img id="Media_member_items" src="Bases/mic1.png" alt="Mic on">
                         <img id="Media_member_items" src="Bases/cam_small.png" alt="Cam on">
                         <img id="Media_member_items" src="Bases/More.svg" alt=" More">
@@ -151,45 +150,45 @@
                 </div>
             </div>
         </div>
-        <div class="Chat_container">
-            <div id="Chat_header">Chat</div>
-            <div id="Chat_mesenger">
-                <div id="Chat_mesenger_item">
-                    <div id="Chat_message_time">
+        <div class="Messenger__Chat">
+            <div class="Messenger__Chat--header">Chat</div>
+            <div class="Messenger__Chat--message">
+                <div class="Messenger__Chat--message--items">
+                    <div class="Messenger__Chat--message--items Messenger__Chat--message--time">
                         <img id="Avarta_chat_message_time" src="Bases/avatar 1326.png" alt="Avatar">
                         <div id="Name_Chat">Deboral Chu</div>
                         <div id="Time">1:12 PM</div>
                     </div>
-                    <p id="Message_content">Lorem execepteur magna volutate exercitation dolore exercitation amet</p>
+                    <p class="Messenger__Chat--message--items Messenger__Chat--message--content">Lorem execepteur magna volutate exercitation dolore exercitation amet</p>
                 </div>
-                <div id="Chat_mesenger_item">
-                    <div id="Chat_message_time">
+                <div class="Messenger__Chat--message--items">
+                    <div class="Messenger__Chat--message--items Messenger__Chat--message--time">
                         <img id="Avarta_chat_message_time" src="Bases/avatar 1327.png" alt="Avatar">
                         <div id="Name_Chat">Jordan Nieves</div>
                         <div id="Time">1:12 PM</div>
                     </div>
-                    <p id="Message_content">Lorem execepteur magna volutate exercitation dolore exercitation amet</p>
+                    <p class="Messenger__Chat--message--items Messenger__Chat--message--content">Lorem execepteur magna volutate exercitation dolore exercitation amet</p>
                 </div>
-                <div id="Chat_mesenger_item">
-                    <div id="Chat_message_time">
+                <div class="Messenger__Chat--message--items">
+                    <div class="Messenger__Chat--message--items Messenger__Chat--message--time">
                         <img id="Avarta_chat_message_time" src="Bases/avatar 1327.png" alt="Avatar">
                         <div id="Name_Chat">Benjamin Crawford</div>
                         <div id="Time">1:12 PM</div>
                     </div>
-                    <p id="Message_content">😍😍😍</p>
+                    <p class="Messenger__Chat--message--items Messenger__Chat--message--content">😍😍😍</p>
                 </div>
-                <div id="Chat_mesenger_item">
-                    <div id="Chat_message_time">
+                <div class="Messenger__Chat--message--items">
+                    <div class="Messenger__Chat--message--items Messenger__Chat--message--time">
                         <img id="Avarta_chat_message_time" src="Bases/avatar 1329.png" alt="Avatar">
                         <div id="Name_Chat">Benjamin Crawford</div>
                         <div id="Time">1:12PM</div>
                     </div>
-                    <p id="Message_content">.....</p>
+                    <p class="Messenger__Chat--message--items Messenger__Chat--message--content">.....</p>
                 </div>
                 <div id="Input_message"> 
                     <input id="Input_message_content" type="text" placeholder="Typing...">
                     <img src="Bases/emoji-smile.svg" alt="" id="emoji_chat_input">
-                   <img id="Send" src="Bases/send.png">
+                    <img id="Send" src="Bases/send.png">   
                 </div>
             </div>
         </div>
