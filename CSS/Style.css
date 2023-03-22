@@ -333,7 +333,7 @@
     padding:15px;
 }
 .Messenger__Chat{
-    padding: 40px 0px 20px 30px;
+    padding: 20px 0px 20px 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
